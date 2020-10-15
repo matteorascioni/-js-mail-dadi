@@ -1,4 +1,4 @@
-// SEZIONE EMAIL
+//  EMAIL
 // var users = ['matteo@gmail', 'alessandro@gmail', 'manuel@gmail', 'livia@gmail'];
 
 // var email = prompt('Inserisci la tua email');
@@ -23,22 +23,19 @@
 //     document.getElementById('autenticato').innerHTML = 'Utente non trovato errore di autenticazione';
 // }
 
-
 // SEIONE DEI DADI
 // PLAYER
-var player = Math.round(Math.random()*5+1);
+// var player = Math.round(Math.random()*5+1);
 
-document.getElementById('getnumberuser').innerHTML = 'User: ' + player;
+// document.getElementById('getnumberuser').innerHTML = 'User: ' + player;
 
-if ( player > pc) {
-    document.getElementById('player').innerHTML = 'player ha vinto';
-}
+// // PC
+// var pc =  Math.round(Math.random()*5+1);
 
-// PC
-var pc =  Math.round(Math.random()*5+1);
+// document.getElementById('getnumberpc').innerHTML = 'pc: ' + pc;
 
-document.getElementById('getnumberpc').innerHTML = 'pc: ' + pc;
-
-if ( pc > player) {
-    document.getElementById('pc').innerHTML = 'pc ha vinto';
-}
+// if ( player > pc) {
+//     document.getElementById('player').innerHTML = 'user ha vinto';
+// } else if ( pc > player) {
+//     document.getElementById('pc').innerHTML = 'pc ha vinto';
+// }
